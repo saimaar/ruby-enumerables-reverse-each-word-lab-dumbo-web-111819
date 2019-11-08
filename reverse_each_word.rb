@@ -1,7 +1,7 @@
 def reverse_each_word(string) 
   result=  string.split(" ")
-  result.each{|ele| ele.reverse }
-  result.join(' ')
+  reversed =  result.each{|ele| ele.reverse }
+  reversed.join(' ')
   
-  result
+  return reversed
 end 
