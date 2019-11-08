@@ -9,8 +9,8 @@
 #   new_str.join(' ')
 # end 
 
-# def reverse_each_word(string) 
-#   result=  string.split(" ")
-#   final = result.collect{|word| word.reverse}
-#   final
-# end 
+def reverse_each_word(string) 
+  result=  string.split(" ")
+  final = result.collect{|word| word.reverse}
+  final
+end 
