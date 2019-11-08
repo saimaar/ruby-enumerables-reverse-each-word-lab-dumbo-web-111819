@@ -3,7 +3,7 @@ def reverse_each_word(string)
   reversed =  result.each{|ele| 
  p  ele.reverse
   
-   p ele 
+  
   }
  
   
