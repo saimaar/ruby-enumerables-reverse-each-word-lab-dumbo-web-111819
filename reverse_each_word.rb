@@ -6,6 +6,6 @@ def reverse_each_word(string)
     new_str.push(ele.reverse)
   }
  
-  new_str
+  new_str.join(' ')
   
 end 
