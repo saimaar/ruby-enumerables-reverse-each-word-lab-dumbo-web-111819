@@ -11,6 +11,6 @@
 
 def reverse_each_word(string) 
   result=  string.split(" ")
-  final = result.collect{|word| word.reverse}
-  final
+  final =  result.collect{|word| word.reverse}
+  final.join(' ')
 end 
